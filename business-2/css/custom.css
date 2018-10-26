@@ -32,13 +32,39 @@ p {
     line-height: 1.5;
 }
 
-input[type=text] {
+p1 {
+
+    line-height: 1.5;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    max-width: 80%;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+.chevron {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+input[type=number] {
     width: 75%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 2px solid grey;
-    border-radius: 4px;
+    border-radius: 25px;
     background-color: rgba(255,255,255,.7);
 
 }
@@ -64,14 +90,14 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 25px;
+    font-weight: 150;
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
@@ -86,7 +112,7 @@ header .header-content .header-content-inner p {
       width: 300px;
       background-color: #fff;
       position: relative;
-      margin-top: 50%;
+      margin-top: 200px;
       margin-right: auto;
       margin-left: auto;
     }
@@ -107,7 +133,8 @@ header .header-content .header-content-inner p {
     }
 
 	header .header-content .header-content-inner h1 {
-    	font-size: 80px;
+    	font-size: 40px;
+      margin-top: 80px;
 		}
 
     header .header-content .header-content-inner p {
